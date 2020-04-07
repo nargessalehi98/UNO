@@ -7,65 +7,64 @@ public class Cards {
     public static final String yellow = "\u001B[33m";
     public static final String blue = "\u001B[34m";
 
-    private String YSkip = yellow + "\u2503skip\u2503";
-    private String YRotate = yellow + "\u2503rvrs\u2503";
-    private String YPlus2 = yellow + "\u2503 +2 \u2503";
+    private String Yskip = yellow + "\u2503skp\u2503";
+    private String Yrotate = yellow + "\u2503rvs\u2503";
+    private String Yplus2 = yellow + "\u2503+ 2\u2503";
     private String Y0 = yellow + "\u2503 0 \u2503";
-    private String Y1 = yellow + "\u2503 1  \u2503";
-    private String Y2 = yellow + "\u2503 2  \u2503";
-    private String Y3 = yellow + "\u2503 3  \u2503";
-    private String Y4 = yellow + "\u2503 4  \u2503";
-    private String Y5 = yellow + "\u2503 5  \u2503";
-    private String Y6 = yellow + "\u2503 6  \u2503";
-    private String Y7 = yellow + "\u2503 7  \u2503";
-    private String Y8 = yellow + "\u2503 8  \u2503";
-    private String Y9 = yellow + "\u2503 9  \u2503";
+    private String Y1 = yellow + "\u2503 1 \u2503";
+    private String Y2 = yellow + "\u2503 2 \u2503";
+    private String Y3 = yellow + "\u2503 3 \u2503";
+    private String Y4 = yellow + "\u2503 4 \u2503";
+    private String Y5 = yellow + "\u2503 5 \u2503";
+    private String Y6 = yellow + "\u2503 6 \u2503";
+    private String Y7 = yellow + "\u2503 7 \u2503";
+    private String Y8 = yellow + "\u2503 8 \u2503";
+    private String Y9 = yellow + "\u2503 9 \u2503";
 
-    private String BSkip = blue + "\u2503skip\u2503";
-    private String BRotate = blue + "\u2503rvrs\u2503";
-    private String BPlus2 = blue + "\u2503 +2 \u2503";
+    private String Bskip = blue + "\u2503skp\u2503";
+    private String Brotate = blue + "\u2503rvs\u2503";
+    private String Bplus2 = blue + "\u2503+ 2\u2503";
     private String B0 = blue + "\u2503 0 \u2503";
-    private String B1 = blue + "\u2503 1  \u2503";
-    private String B2 = blue + "\u2503 2  \u2503";
-    private String B3 = blue + "\u2503 3  \u2503";
-    private String B4 = blue + "\u2503 4  \u2503";
-    private String B5 = blue + "\u2503 5  \u2503";
-    private String B6 = blue + "\u2503 6  \u2503";
-    private String B7 = blue + "\u2503 7  \u2503";
-    private String B8 = blue + "\u2503 8  \u2503";
-    private String B9 = blue + "\u2503 9  \u2503";
+    private String B1 = blue + "\u2503 1 \u2503";
+    private String B2 = blue + "\u2503 2 \u2503";
+    private String B3 = blue + "\u2503 3 \u2503";
+    private String B4 = blue + "\u2503 4 \u2503";
+    private String B5 = blue + "\u2503 5 \u2503";
+    private String B6 = blue + "\u2503 6 \u2503";
+    private String B7 = blue + "\u2503 7 \u2503";
+    private String B8 = blue + "\u2503 8 \u2503";
+    private String B9 = blue + "\u2503 9 \u2503";
 
-    private String RSkip = red + "\u2503skip\u2503";
-    private String RRotate = red + "\u2503rvrs\u2503";
-    private String RPlus2 = red + "\u2503 +2 \u2503";
+    private String Rskip = red + "\u2503skp\u2503";
+    private String Rrotate = red + "\u2503rvs\u2503";
+    private String Rplus2 = red + "\u2503+ 2\u2503";
     private String R0 = red + "\u2503 0 \u2503";
-    private String R1 = red + "\u2503 1  \u2503";
-    private String R2 = red + "\u2503 2  \u2503";
-    private String R3 = red + "\u2503 3  \u2503";
-    private String R4 = red + "\u2503 4  \u2503";
-    private String R5 = red + "\u2503 5  \u2503";
-    private String R6 = red + "\u2503 6  \u2503";
-    private String R7 = red + "\u2503 7  \u2503";
-    private String R8 = red + "\u2503 8  \u2503";
-    private String R9 = red + "\u2503 9  \u2503";
+    private String R1 = red + "\u2503 1 \u2503";
+    private String R2 = red + "\u2503 2 \u2503";
+    private String R3 = red + "\u2503 3 \u2503";
+    private String R4 = red + "\u2503 4 \u2503";
+    private String R5 = red + "\u2503 5 \u2503";
+    private String R6 = red + "\u2503 6 \u2503";
+    private String R7 = red + "\u2503 7 \u2503";
+    private String R8 = red + "\u2503 8 \u2503";
+    private String R9 = red + "\u2503 9 \u2503";
 
-    private String GSkip = green + "\u2503skip\u2503";
-    private String GRotate = green + "\u2503rvrs\u2503";
-    private String GPlus2 = green + "\u2503 +2 \u2503";
+    private String Gskip = green + "\u2503skp\u2503";
+    private String Grotate = green + "\u2503rvs\u2503";
+    private String Gplus2 = green + "\u2503+ 2\u2503";
     private String G0 = green + "\u2503 0 \u2503";
-    private String G1 = green + "\u2503 1  \u2503";
-    private String G2 = green + "\u2503 2  \u2503";
-    private String G3 = green + "\u2503 3  \u2503";
-    private String G4 = green + "\u2503 4  \u2503";
-    private String G5 = green + "\u2503 5  \u2503";
-    private String G6 = green + "\u2503 6  \u2503";
-    private String G7 = green + "\u2503 7  \u2503";
-    private String G8 = green + "\u2503 8  \u2503";
-    private String G9 = green + "\u2503 9  \u2503";
+    private String G1 = green + "\u2503 1 \u2503";
+    private String G2 = green + "\u2503 2 \u2503";
+    private String G3 = green + "\u2503 3 \u2503";
+    private String G4 = green + "\u2503 4 \u2503";
+    private String G5 = green + "\u2503 5 \u2503";
+    private String G6 = green + "\u2503 6 \u2503";
+    private String G7 = green + "\u2503 7 \u2503";
+    private String G8 = green + "\u2503 8 \u2503";
+    private String G9 = green + "\u2503 9 \u2503";
 
-    //14
-    private String wildPlus4 = black + "\u2503+4🌈" + green + black + "\u2503";
-    private String wildColor = black + "\u2503" + " 🌈 " + green + black + "\u2503";
+    private String wildPlus4 = black + "\u2503"+blue+"+ "+red+"4"+ black + "\u2503";
+    private String wildColor = black + "\u2503" + blue+"\u2503"+green+"\u2503"+red+"\u2503" + green + black + "\u2503";
 
     private HashMap<Integer, String> cards;
 
@@ -98,12 +97,12 @@ public class Cards {
         cards.put(282,G8);
         cards.put(291,G9);
         cards.put(292,G9);
-        cards.put(2101,GRotate);
-        cards.put(2102,GRotate);
-        cards.put(2111,GSkip);
-        cards.put(2112,GSkip);
-        cards.put(2121,GPlus2);
-        cards.put(2122,GPlus2);
+        cards.put(2101,Grotate);
+        cards.put(2102,Grotate);
+        cards.put(2111,Gskip);
+        cards.put(2112,Gskip);
+        cards.put(2121,Gplus2);
+        cards.put(2122,Gplus2);
 
         cards.put(301,B0);
         cards.put(311,B1);
@@ -124,12 +123,12 @@ public class Cards {
         cards.put(382,B8);
         cards.put(391,B9);
         cards.put(392,B9);
-        cards.put(3101,BRotate);
-        cards.put(3102,BRotate);
-        cards.put(3111,BSkip);
-        cards.put(3112,BSkip);
-        cards.put(3121,BPlus2);
-        cards.put(3122,BPlus2);
+        cards.put(3101,Brotate);
+        cards.put(3102,Brotate);
+        cards.put(3111,Bskip);
+        cards.put(3112,Bskip);
+        cards.put(3121,Bplus2);
+        cards.put(3122,Bplus2);
 
         cards.put(401,Y0);
         cards.put(411,Y1);
@@ -150,12 +149,12 @@ public class Cards {
         cards.put(482,Y8);
         cards.put(491,Y9);
         cards.put(492,Y9);
-        cards.put(4101,YRotate);
-        cards.put(4102,YRotate);
-        cards.put(4111,YSkip);
-        cards.put(4112,YSkip);
-        cards.put(4121,YPlus2);
-        cards.put(4122,YPlus2);
+        cards.put(4101,Yrotate);
+        cards.put(4102,Yrotate);
+        cards.put(4111,Yskip);
+        cards.put(4112,Yskip);
+        cards.put(4121,Yplus2);
+        cards.put(4122,Yplus2);
 
         cards.put(501,R0);
         cards.put(511,R1);
@@ -176,17 +175,17 @@ public class Cards {
         cards.put(582,R8);
         cards.put(591,R9);
         cards.put(592,R9);
-        cards.put(5101,RRotate);
-        cards.put(5102,RRotate);
-        cards.put(5111,RSkip);
-        cards.put(5112,RSkip);
-        cards.put(5121,RPlus2);
-        cards.put(5122,RPlus2);
-
-
-
+        cards.put(5101,Rrotate);
+        cards.put(5102,Rrotate);
+        cards.put(5111,Rskip);
+        cards.put(5112,Rskip);
+        cards.put(5121,Rplus2);
+        cards.put(5122,Rplus2);
     }
 
+    public HashMap getCardList(){
+        return cards;
+    }
     public void addCard(Integer key, String value) {
         cards.put(key, value);
     }
@@ -197,5 +196,8 @@ public class Cards {
 
     public String getCard(Integer key) {
         return cards.get(key);
+    }
+    public void printACard(Integer key){
+        System.out.println(getCard(key));
     }
 }
